@@ -1,0 +1,43 @@
+### Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+### Build output
+build/
+dist/
+.vite/
+
+### Environment variables
+.env
+
+### Editor & System files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+### Netlify
+.netlify/
+
+### Miscellaneous
+*.bak
+*.swp
+*.swo
+
+### OS-Specific Files
+*.DS_Store
+*.AppleDouble
+
+### IDE and Code Editor Specific
+*.sublime-project
+*.sublime-workspace
+*.vscode/
+*.idea/
+
+### Logs and Debugging
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
