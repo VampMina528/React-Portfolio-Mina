@@ -62,6 +62,10 @@ To set up and run the project locally:
 
 ![Portfolio Screenshot](./assets/portfolio-screenshot.png)
 
+## Collaborations
+
+It has been a pleasure to work on this project with Fisher Almanza, Danny Wortmann and Stephen Schier.
+
 ## Links / ## Contact
 
 - **Live Demo**: [Deployed Portfolio](#)
