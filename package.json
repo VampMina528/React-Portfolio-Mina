@@ -1,33 +1,19 @@
 {
   "name": "react-portfolio",
   "version": "1.0.0",
-  "description": "## Your Task",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "dev": "vite",
-    "start": "vite",
     "build": "vite build",
-    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/VampMina528/React-Portfolio-Mina.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/VampMina528/React-Portfolio-Mina/issues"
-  },
-  "homepage": "https://github.com/VampMina528/React-Portfolio-Mina#readme",
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-router-dom": "^7.3.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.2"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^4.3.4",
+    "@vitejs/plugin-react": "^4.0.3",
     "vite": "^6.2.2"
   }
 }
