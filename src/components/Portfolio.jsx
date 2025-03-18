@@ -9,7 +9,7 @@ export default function Portfolio() {
 
   return (
     <div>
-      <h2>Portfolio</h2>
+      <h2>Mina's Portfolio</h2>
       <div style={styles.grid}>
         {projects.map((project, index) => (
           <Project key={index} {...project} />

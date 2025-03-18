@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Header() {
   return (
     <header>
-      <h1>My Portfolio</h1>
+      <h1>Mina Draper-Hammond Portfolio</h1>
       <nav>
         <Link to="/">About Me</Link> | 
         <Link to="/portfolio">Portfolio</Link> | 

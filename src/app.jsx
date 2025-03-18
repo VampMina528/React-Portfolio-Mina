@@ -1,17 +1,17 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import AboutMe from './pages/AboutMe';
-import Portfolio from './pages/Portfolio';
-import Contact from './pages/Contact';
-import Resume from './pages/Resume';
+import Navigation from './components/Navigation';
+import Portfolio from './components/portfolio';
+import Contact from './components/contact';
+import Resume from './components/Resume';
 
 function App() {
   return (
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<AboutMe />} />
+        <Route path="/navigation" element={<Navigation />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
