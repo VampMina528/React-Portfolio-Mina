@@ -2,13 +2,10 @@ import Project from "../components/Project.js";
 
 export default function Portfolio() {
   const projects = [
-    { title: "Project 1", img: "project1.jpg", deploy: "#", repo: "#" },
-    { title: "Project 2", img: "project2.jpg", deploy: "#", repo: "#" },
-    { title: "Project 3", img: "project3.jpg", deploy: "#", repo: "#" },
-    { title: "Project 4", img: "project4.jpg", deploy: "#", repo: "#" },
-    { title: "Project 5", img: "project5.jpg", deploy: "#", repo: "#" },
-    { title: "Project 6", img: "project6.jpg", deploy: "#", repo: "#" },
-  ];
+    { title: "Weather-Dashboard", img: "./public.weather.png", deploy: "#", repo: "#https://github.com/VampMina528/Weather-Dashboard" },
+    { title: "Pets-Who Team Collaboration", img: "./public.petswho.jpg", deploy: "#", repo: "#https://github.com/Falmanza94/pets-who" },
+    { title: "EmployeeCMS", img: "./public.EmployeeCMS.jpg", deploy: "#", repo: "#https://github.com/VampMina528/Employee-CMS" },
+      ];
 
   return (
     <div>
