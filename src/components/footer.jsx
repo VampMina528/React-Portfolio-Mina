@@ -3,7 +3,8 @@ import React from 'react';
 function Footer() {
   return (
     <footer>
-      <p>© 2024 My Name</p>
+      <p>Thank you for visiting!</p>
+      <p>© 2025 Mina Draper-Hammond</p>
     </footer>
   );
 }
