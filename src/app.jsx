@@ -1,11 +1,11 @@
 import { Routes, Route } from "react-router-dom";
 import React from "react";
-import header from "./components/header";
-import Footer from "./components/Footer";
+import Header from "./components/header";
+import Footer from "./components/footer";
 import Portfolio from "./components/Portfolio";
-import Contact from "./components/Contact";
+import Contact from "./components/contact";
 import Resume from "./components/Resume";
-import AboutMe from "./components/aboutme"; 
+import Aboutme from "./components/aboutme"; 
 import "./app.css"; 
 import reactLogo from "./reactLogo.png";
 
@@ -14,13 +14,16 @@ function App() {
     <>
       <Header />
       <main>
-        <img src={reactLogo} alt="react logo" style={{ width: "100px", display: "block", margin: "0 auto" }} />
-        <title>Aspiring Software Developer</title>
+        <img
+          src={reactLogo}
+          alt="react logo"
+          style={{ width: "100px", display: "block", margin: "0 auto" }}
+        />
         <Routes>
-          <Route path="/" element={<AboutMe />} />
-          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/aboutme" element={<Aboutme />} />
+          <Route path="/Portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/resume" element={<Resume />} />
+          <Route path="/Resume" element={<Resume />} />
         </Routes>
       </main>
       <Footer />
