@@ -15,14 +15,6 @@ This is a personal portfolio built using React, designed to showcase projects, s
 - **Resume Section** providing a downloadable resume and a list of proficiencies
 - **Footer Component** with links to GitHub, LinkedIn, and a third platform (e.g., Twitter or Stack Overflow)
 
-## User Story
-
-```md
-AS AN employer looking for candidates with experience building single-page applications
-I WANT to view a potential employee's deployed React portfolio of work samples
-SO THAT I can assess whether they're a good candidate for an open position
-```
-
 
 ## Deployment
 
@@ -60,11 +52,15 @@ To set up and run the project locally:
 
 ## Screenshots
 
-![Portfolio Screenshot](./assets/portfolio-screenshot.png)
+![Portfolio Screenshot](./assets/PortfolioScreenshot.png)
+
+## Resources
+The University of Kansas
 
 ## Collaborations
 
-It has been a pleasure to work on this project with Fisher Almanza, Danny Wortmann and Stephen Schier.
+It has been a pleasure to work on this project with my Teammates from The University of Kansas... Fisher Almanza, Danny Wortmann and Stephen Schier.
+
 
 ## Links / ## Contact
 
@@ -73,5 +69,5 @@ It has been a pleasure to work on this project with Fisher Almanza, Danny Wortma
 - **LinkedIn**: [www.linkedin.com/in/tanya-draper-hammond-398b2334](#)
 
 ---
-© 2025 Mina. All Rights Reserved.
+
 

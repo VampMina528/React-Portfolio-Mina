@@ -4,11 +4,11 @@
 
 /* brand color palette */
 :root {
-  --primary: rgba(68, 88, 119, 1);
-  --secondary: rgb(160, 163, 163);
-  --tertiary: rgba(49, 52, 61, 1);
+  --primary: rgb(214, 216, 221);
+  --secondary: hsla(236, 91%, 25%, 0.685);
+  --tertiary: hsla(234, 9%, 79%, 0.685);
   --dark: rgba(28, 29, 33, 1);
-  --light: rgba(238, 238, 247, 1);
+  --light: rgba(151, 65, 69, 0.623);
 }
 
 body {
@@ -41,7 +41,7 @@ header {
   flex-wrap: wrap;
   align-items: justify;
   background-color: var(--tertiary);
-  box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4);
+  box-shadow: 0 5px 35px rgba(60, 64, 65, 0.4);
 }
 
 header h1 {
@@ -60,7 +60,7 @@ nav {
 }
 
 nav a {
-  text-decoration: none;
+  text-decoration: justify;
   padding: 5px 10px;
   color: var(--secondary);
   margin-right: 10px;
@@ -78,7 +78,7 @@ nav a:hover {
 }
 
 nav a:last-child {
-  margin-right: 0;
+  margin-right: justify;
 }
 
 main {
@@ -149,7 +149,7 @@ main {
 }
 
 .flex-item:hover {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: darkgrey;
 }
 
 .flex-item div {

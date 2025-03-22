@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer>
       <p>Thank you for visiting!</p>
-      <p>© 2025 Mina Draper-Hammond</p>
+      <p>Mina Draper-Hammond</p>
     </footer>
   );
 }

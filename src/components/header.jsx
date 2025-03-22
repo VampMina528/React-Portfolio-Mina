@@ -1,16 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Navigation from './Navigation';
 
 function Header() {
   return (
     <header>
       <h1>Mina Draper-Hammond Portfolio</h1>
-      <nav>
-        <Link to="/">About Me</Link> | 
-        <Link to="/portfolio">Portfolio</Link> | 
-        <Link to="/contact">Contact</Link> | 
-        <Link to="/resume">Resume</Link>
-      </nav>
+      <Navigation></Navigation>
     </header>
   );
 }
