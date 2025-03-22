@@ -52,7 +52,7 @@ To set up and run the project locally:
 
 ## Screenshots
 
-![Portfolio Screenshot](./assets/PortfolioScreenshot.png)
+![Portfolio Screenshot](./PortfolioScreenshot.png)
 
 ## Resources
 The University of Kansas
