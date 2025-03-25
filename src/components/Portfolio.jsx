@@ -6,7 +6,7 @@ import WeatherDashboardPDF from '../assets/WeatherDashboard.pdf';
 import EmployeeCMSPDF from '../assets/EmployeeCMS.pdf';
 import VehicleBuilderPDF from '../assets/VehicleBuilder.pdf';
 import READMEGeneratorPDF from '../assets/READMEGenerator.pdf';
-import BirdsPDF from '../assets/birds.pdf';
+import BirdsPDF from '../assets/Birds.pdf';
 
 const projects = [
   {
