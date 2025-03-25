@@ -64,9 +64,9 @@ It has been a pleasure to work on this project with my Teammates from The Univer
 
 ## Links / ## Contact
 
-- **Live Demo**: [Deployed Portfolio](#)
-- **GitHub Repository**: [https://github.com/VampMina528](#)
-- **LinkedIn**: [www.linkedin.com/in/tanya-draper-hammond-398b2334](#)
+
+- **GitHub Repository**: [https://github.com/VampMina528/React-Portfolio-Mina](#https://github.com/VampMina528/React-Portfolio-Mina)
+- **LinkedIn**: [www.linkedin.com/in/tanya-draper-hammond-398b2334](#www.linkedin.com/in/tanya-draper-hammond-398b2334)
 
 ---
 
