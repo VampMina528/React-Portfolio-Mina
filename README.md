@@ -18,7 +18,7 @@ This is a personal portfolio built using React, designed to showcase projects, s
 
 ## Deployment
 
-This portfolio is deployed using Netlify. Follow the [Netlify deployment guide](https://vitejs.dev/guide/static-deploy.html#netlify) to build and deploy the application.
+This portfolio is deployed using Netlify. [react-portfolio-mina.netlify.app](https://react-portfolio-mina.netlify.app/)
 
 ## Installation and Usage
 
