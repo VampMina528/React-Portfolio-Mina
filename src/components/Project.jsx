@@ -1,39 +1,47 @@
 import React from "react";
 
-const Project = () => {
-  const projects = [
-    { id: 1, name: "Weather Dashboard", description: "A weather app using OpenWeather API.", link: "https://github.com/VampMina528/Weather-Dashboard" },
-    { id: 2, name: "Employee-CMS", description: "A CLI tool for managing employees.", link: "https://github.com/VampMina528/Employee-CMS" },
-    { id: 3, name: "React Portfolio", description: "My personal portfolio site.", link: "https://github.com/VampMina528/React-Portfolio-Mina" },
-    { id: 4, name: "Vehicles", description: "Vehicle Builder.", link: "https://github.com/VampMina528/Vehicles" },
-    { id: 5, name: "README Generator", description: "README Generator.", link: "https://github.com/VampMina528/README-Generator" },
-    { id: 6, name: "Bird-Quiz", description: "A collaboration with teammates for bird lovers.", link: "https://github.com/VampMina528/Bird-Quiz" },
-  ];
-
+export default function Project({ title, description, image, link, pdf }) {
   return (
-    <div style={styles.container}>
-      <h1 style={styles.heading}>My Projects</h1>
-
-      <div style={styles.projectList}>
-        {projects.map((project) => (
-          <div key={project.id} style={styles.projectCard}>
-            <h3>{project.name}</h3>
-            <p>{project.description}</p>
-            <a href={project.link} target="_blank" rel="noopener noreferrer">
-              View Project
-            </a>
-          </div>
-        ))}
-      </div>
+    <div style={styles.card}>
+      <h3>{title}</h3>
+      <p>{description}</p>
+      {link && (
+        <a href={link} target="_blank" rel="noopener noreferrer" style={styles.link}>
+          🔗 View on GitHub
+        </a>
+      )}
+      {pdf && (
+        <a href={pdf} target="_blank" rel="noopener noreferrer" style={styles.link}>
+          📄 View PDF
+        </a>
+      )}
     </div>
   );
-};
+}
 
 const styles = {
-  container: { padding: "20px", textAlign: "center" },
-  heading: { fontSize: "2rem", marginBottom: "20px" },
-  projectList: { display: "flex", flexWrap: "wrap", gap: "20px", justifyContent: "center" },
-  projectCard: { border: "1px solid #ddd", padding: "15px", borderRadius: "8px", width: "250px" }
+  card: {
+    padding: "15px",
+    border: "1px solid #ccc",
+    borderRadius: "10px",
+    textAlign: "center",
+    backgroundColor: "#f9f9f9",
+    boxShadow: "0 4px 8px rgba(0,0,0,0.1)",
+    width: "100%",
+    maxWidth: "300px",
+  },
+  image: {
+    width: "100%",
+    height: "150px",
+    objectFit: "cover",
+    borderRadius: "8px",
+    marginBottom: "10px",
+  },
+  link: {
+    display: "block",
+    marginTop: "10px",
+    color: "#0077cc",
+    textDecoration: "none",
+    fontWeight: "bold",
+  },
 };
-
-export default Project;

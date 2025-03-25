@@ -21,7 +21,7 @@ function Resume() {
       </p>
 
       <h3>Proficiencies</h3>
-      <ul>
+   
       <li>HTML</li>
       <li>CSS</li>
       <li>TypeScript</li>
@@ -31,7 +31,7 @@ function Resume() {
       <li>Node</li>
       <li>Git/GitHub</li>
       <li>PostgreSQL</li>
-      </ul>
+     
     </section>
   );
 }
