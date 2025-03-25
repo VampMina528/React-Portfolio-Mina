@@ -6,7 +6,7 @@ function Navigation() {
 
   return (
     <nav>
-      <Link className={location.pathname === "/" ? "active" : ""} to="/">
+      <Link className={location.pathname === "/" ? "active" : ""} to="/aboutme">
         About Me
       </Link>
       <Link className={location.pathname === "/portfolio" ? "active" : ""} to="/portfolio">
